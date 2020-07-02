@@ -91,6 +91,7 @@ body {
   padding: .75rem 1rem;
   border-width: 0;
   border-radius: 0;
+    
 }
 
 .form-control-dark {
@@ -134,6 +135,13 @@ body {
 }
 .bg-hasNotification{
     background-color: #ffd4d5;
+}
+.my_menu {
+background-color: #eeeeee !important;
+color: #333 !important;
+}
+.my_menu > ul:hover {
+  color: #000 !important;
 }
 
 body > p.flash-message {
