@@ -93,3 +93,24 @@ html {
 .activity {
   color: #007bff;
 }
+.form-control {
+  margin-right: 1em !important;
+}
+.searchafter {
+  margin-left: 2em !important;
+}
+.dropdown-toggle {
+  background-color: rgba(160, 0, 0, 0);
+  color: black;
+}
+.navbar-brand {
+  font-weight: 500;
+  font-size: 23px;
+ 
+}
+.navbartwo {
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241) !important;
+margin-bottom: 3em;
+}
+

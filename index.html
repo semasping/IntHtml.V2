@@ -107,12 +107,30 @@
         </div>
       </nav>
 
-
-      <div class="container-fluid">
-        <div class="row">
+      <nav class="navbar navbar-light bg-light navbartwo">
+        <a class="navbar-brand">Каталог Товаров</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Все категории
+            </a>
           
-         
-              <div class="row mb-3 dopbutton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Категория 1</a>
+              <a class="dropdown-item" href="#">Категория 2</a>
+              <a class="dropdown-item" href="#">Категория 3</a>
+            </div>
+          </div>
+          <button class="btn btn-outline-success my-2 my-sm-0 searchafter" type="submit">Search</button>
+        </form>
+      </nav>
+      <div class="container-fluid">
+        
+     
+        <div class="row">
+            
+          <!--    <div class="row mb-3 dopbutton">
                   <div class="col col-md-6 text-right">
                       <button class="btn btn-primary oc-icon-list" data-request="onLoadETD"
                               data-request-update="dashboard/orders/processed: &#39;#content&#39;">In Work
@@ -127,7 +145,7 @@
                       <button class="btn btn-primary oc-icon-plus" data-request="Orders::onAddOrder"
                               data-request-success="$(&#39;#ajaxPopupForm&#39;).modal(&#39;show&#39;)">Add Order
                       </button>
-                  </div>
+                  </div> -->
               </div>
               <div class="row h-100 osnovnoicont">
                   <div class="col-12" id="content">
